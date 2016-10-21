@@ -77,7 +77,7 @@ enum HeroName: CustomStringConvertible {
             
         case .mei: return "Mei"
             
-        case .torbjörn: return "Torbjön"
+        case .torbjörn: return "Torbjörn"
             
         case .widowmaker: return "Widowmaker"
             
@@ -131,14 +131,15 @@ enum HeroType: CustomStringConvertible {
     var description: String {
         switch self{
             
-        
-        case .offense: return "💥"
-        
-        case .defense: return " 🛡"
             
-        case .support: return "🚑"
         
-        case .tank: return "🐼"
+        case .offense: return "Offense: 💥"
+        
+        case .defense: return "Defense: 🛡"
+            
+        case .support: return "Support: 🚑"
+        
+        case .tank: return "Tank: 🐼"
         }
     }
     
